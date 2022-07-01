@@ -1,0 +1,10 @@
+
+const Text = ({toggle, displayTxt}) => {
+  
+    // data-testid is a testing id
+    // which is used only during tests
+    return <h1 data-testid="text">{toggle? displayTxt : ""}</h1>
+}
+  
+export default Text;
+//Test 2: Testing if the button displays the text passed as a prop.
